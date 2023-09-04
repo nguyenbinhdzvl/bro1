@@ -10,7 +10,10 @@ namespace bro1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello");
+            Console.Write("Nhap ten cua ban: ");
+            string ten = Console.ReadLine();
+            Console.WriteLine("hello {0}",ten);
+            Console.ReadKey();
         }
     }
 }
